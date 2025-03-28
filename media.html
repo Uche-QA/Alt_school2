@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+  </head>
+  <body>
+    <section>
+      <h1>Hello, Welcome to My Story</h1>
+
+      <picture>
+        <source srcset="./Assets/image-large.jpg" media="(min-width: 1024px)" />
+        <source srcset="./Assets/image-medium.jpg" media="(min-width: 768px)" />
+        <source srcset="./Assets/image-small.jpg" media="(max-width: 767px)" />
+        <img src="./Assets/image-large.jpg" alt="An Old Picture of me" />
+      </picture>
+      <p>An Old Headshot</p>
+    </section>
+    <section>
+      <h1>A brief Introduction</h1>
+      <video controls>
+        <source src="./Assets/IMG_1201.mp4" type="video/mp4" />
+        <source src="./Assets/IMG_1201.webm" type="video/webm" />
+        <p>Your browser does not support the video element.</p>
+      </video>
+    </section>
+    <h2>Listen to My Story</h2>
+    <audio controls>
+      <source src="./Assets/About.mp3" type="audio/mpeg" />
+      <source src="./Assets/About.ogg" type="audio/ogg" />
+      <p>Your browser does not support the audio element.</p>
+    </audio>
+    <p>
+      My goal is to bridge the gap between technology and user experience while
+      continuously learning and inspiring others to do the same.
+    </p>
+  </body>
+</html>
